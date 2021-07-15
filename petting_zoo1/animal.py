@@ -23,7 +23,7 @@ miss_fuzz = Llama("Mary", "Llama", "midday", "Llama feed")
 sassy = Llama("Sassy", "Llama", "morning", "Llama feed")
 potato = Llama("Potato", "Llama", "evening", "Llama feed")
 
-print(miss_fuzz.feed())
+
 
 
 class Dog:

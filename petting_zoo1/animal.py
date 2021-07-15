@@ -20,6 +20,8 @@ class Llama:
 
 
 miss_fuzz = Llama("Mary", "Llama", "midday", "Llama feed")
+sassy = Llama("Sassy", "Llama", "morning", "Llama feed")
+potato = Llama("Potato", "Llama", "evening", "Llama feed")
 
 print(miss_fuzz.feed())
 
@@ -39,6 +41,8 @@ class Dog:
 
 
 barky = Dog("Barky", "Cocker Spaniel", "morning", "Kibbles and bits")
+wolf = Dog("Wolf", "Husky", "evening", "Bacon bits")
+queeny = Dog("Queeny", "Corgi", "Midday", "Princess Pebbles")
 
 
 class Monkey:
@@ -56,8 +60,7 @@ class Monkey:
 
 
 bananas = Monkey("Bananas", "Spider Monkey", "evening", "Bananas and nuts")
+mikey = Monkey("Mikey", "Monkey", "morning", "fruits")
+stacey = Monkey("Stacey", "Monkey", "Midday", "Strawberries")
 
 
-print(
-    f"{barky.name} has a shift during the {barky.shift} today. She is an energetic {barky.species}!"
-)

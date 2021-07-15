@@ -13,5 +13,7 @@ class Fish:
         return f"{self.name} is a {self.species}"
 
 lance = Fish("Lance", "Bass", "meal worms")
+guppy = Fish("Guppy", "Guppy", "fish feed")
+nemo = Fish("Nemo", "Clown Fish", "fish chips")
 
 print(lance)

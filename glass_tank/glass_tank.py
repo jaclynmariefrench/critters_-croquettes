@@ -13,3 +13,5 @@ class Snake:
         return f"{self.name} is a {self.species}"
 
 simon = Snake("Simon", "Copperhead", "rats")
+steve = Snake("Steve", "Python", "rabbits")
+sassy = Snake("Sassy", "Cobra", "rats")
